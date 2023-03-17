@@ -114,7 +114,7 @@ for subject in subList:
     
     #Ensure all the file labels are appropriate for subject
     scaleTool.getMarkerPlacer().setOutputMotionFileName(f'{subject}_static_output.mot')
-    scaleTool.getMarkerPlacer().setOutputModelFileName(f'{subject}_adjusted_output.mot')
+    scaleTool.getMarkerPlacer().setOutputModelFileName(f'{subject}_adjusted_scaled.osim')
     scaleTool.getModelScaler().setOutputScaleFileName(f'{subject}_scaleSet_applied.xml')
     
     #Check that scaling times are appropriate
