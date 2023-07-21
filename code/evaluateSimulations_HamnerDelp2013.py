@@ -12,8 +12,7 @@ Created on Fri Feb 24 15:51:22 2023
     simulations run on the Hamner & Delp 2013 data.
     
     Specifically we load in results from each subject to compare the kinematics
-    and store as a figure, and then evaluate the residual pelvis torques via a
-    torque-drive inverse simulation.
+    and store as a figure.
     
     Data is also stored in easy to load in formats for subsequent analyses.
 
@@ -405,7 +404,7 @@ for subject in subList:
             
     # %% Read in and compare residuals
     
-    #Check whether to evaluate kinematics
+    #Check whether to evaluate residuals
     if readAndCheckResiduals:
     
         #Create dictionaries to store RRA and Moco data
